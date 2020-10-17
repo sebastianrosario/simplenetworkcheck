@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# This script checks default Linux networking settings like, IP, Mac Addresses and internet connectivity. 
-# This script also logs fail2ban ban/unban actions, open ports, and dns info at var/log/networkcheck.log
-
 # Variable that holds the log directory, defaults to /var/log
 logDirectory="/var/log/networkcheck.log"
 
