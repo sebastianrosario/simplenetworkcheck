@@ -4,4 +4,4 @@ This script also logs fail2ban ban/unban actions, open ports, and dns info at va
 
 Examples 
 
-<i>./simplenetworkcheck.sh ~/Desktop/networkinfo.log</i>
+<b>./simplenetworkcheck.sh ~/Desktop/networkinfo.log</b>
