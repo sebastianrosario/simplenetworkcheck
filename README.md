@@ -1,2 +1,7 @@
 # simplenetworkcheck
-A shell script that retrieves network information, prints to the terminal and saves to specified log file.
+Simplenetworkcheck is a shell script that checks default Linux networking settings like, IP, Mac Addresses and internet connectivity.
+This script also logs fail2ban ban/unban actions, open ports, and dns info at var/log/networkcheck.log or a specified directory that is passed into the command line argument.
+
+Examples 
+
+<i>./simplenetworkcheck.sh ~/Desktop/networkinfo.log</i>
