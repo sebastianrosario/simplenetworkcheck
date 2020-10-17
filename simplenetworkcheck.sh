@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Variable that holds the log directory, defaults to /var/log
-logDirectory="/var/log/networkcheck.log"
+logDirectory="/var/log/simplenetworkcheck.log"
 
 # Matches any IP address that is given in the output of the command 'ip a'
 # It is stored in the ipa variable and then called later for formatting
