@@ -1,6 +1,6 @@
 # simplenetworkcheck
-Simplenetworkcheck is a shell script that checks default Linux networking settings like, IP, Mac Addresses and internet connectivity.
-This script also logs fail2ban ban/unban actions, open ports, and dns info at var/log/networkcheck.log or a specified directory that is passed into the command line argument.
+Simplenetworkcheck is a shell script that checks default Linux networking settings like, IP, Mac Addresses, internet connectivity, open ports, and dns info. This script also optionally logs fail2ban ban/unban actions, that is to say if fail2ban is installed. It saves the log by default at var/log/simplenetworkcheck.log or a specified directory that is passed into the command line argument. The script runs these specific commands because all modern Linux machines has these commands pre-packaged (except for fail2ban which is made optional). I focused on simple yet useful things to keep in a log. 
+
 
 Download the script, chmod +x it and run it. 
 
