@@ -11,7 +11,7 @@ f2bLog="/var/log/fail2ban.log"
 ipa=$(ip a | awk 'match($0,/[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\/[0-9]{1,2}/,x) {print x[0]}')
 
 # Matches any mac addresses in the output of ip a and stores it in the macaddr variable
-macaddr=$(ip a | awk 'match($0,/\w\w:\w\w:\w\w\:\w\w:\w\w:\w\w/,x) {print x[0]}')
+macaddr=$(ip a | awk 'match($0,/\w\w:\w\w:\w\w:\w\w:\w\w:\w\w/,x) {print x[0]}')
 
 # The commands that are used to retrieve the network info are stored in the function called main_commands()
 main_commands() {
