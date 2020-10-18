@@ -35,7 +35,7 @@ main_commands() {
 		else
 			echo -e "\nFAIL2BAN LOGS NOT FOUND\n"
 	fi
-	
+
 	# Conditional that checks for positive output from the ping command
 	echo -e "\nPinging 8.8.8.8 to test internet connectivity..."
 	if ping -w 2 -c 2 8.8.8.8 | grep -E "[1-9] received";
